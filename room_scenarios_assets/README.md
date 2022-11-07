@@ -13,4 +13,4 @@ All the maps presented here have been created using
 [Tiled](https://www.mapeditor.org/). Tiled is a general purpose tile map
 editor, recommended by Gather Town for maps creation. The assets employed to
 create the maps are given openly by Gather Town at
-[https://github.com/gathertown/mapmaking]
+https://github.com/gathertown/mapmaking
