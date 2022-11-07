@@ -18,5 +18,30 @@ interactive activity for our students. The activity is prepared to be played by
 a group of 3 students, and it is composed of 5 tasks, ordered by ascending
 difficulty.
 
-This repository provides all the information needed to setup the activity with
-your own students.
+This repository provides all the information you need to setup the activity with
+your own students. An example of the escape room can be found ![here](https://gather.town).
+
+<!-- TODO: Add a proper link to the functioning room -->
+
+> DISCLAIMER: Problem statements are written in spanish (our mother
+> tongue). However, it should not be difficult to modify the code to translate
+> it into other languages.
+
+## Activity description and example
+
+The proposed activity is an escape room composed of 5 tasks. Tasks are ordered
+in ascending difficulty, and they are tackled in a sequential manner. In order
+to improve the communication capabilities of our students, the game is built in
+such a way that players' paths are disjoint. Once the escape room starts, each
+player will be teleported to an independent room, and they will not be able to
+visit the rooms of their partners (although they can see each other in the
+screen). The information needed to solve the problems will be then presented in
+a fragmented way, and each player will find only a fragment of the information
+needed to solve the task. Thus, they will have to communicate their information
+to each other to solve the assignment properly. Without this communication, the
+problems are not solvable, since every piece of information is relevant to the
+task.
+
+# Project technologies and dependencies
+
+This section describes the technologies employed in this project
