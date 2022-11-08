@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  # Listeners
+  gather-listeners:
+    build: .
+    image: fluque1995/gather-escape-room:v1
+    entrypoint: npm run main
+    volumes:
+      -  # Filled using create_services.py
+  # Environment setup
+  gather-setup:
+    build: .
+    image: fluque1995/gather-escape-room:v1
+    entrypoint: npm run deploy
+    volumes:
+      -  # Filled using create_services.py

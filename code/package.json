@@ -1,0 +1,31 @@
+{
+    "name": "maths_escape_room",
+    "version": "1.0.0",
+    "description": "Mathematical escape room based on https://gather.town",
+    "main": "index.ts",
+    "scripts": {
+	"main": "tsc -b && node dist/run_listeners.js",
+	"deploy": "tsc -b && node dist/setup_rooms.js",
+    },
+    "repository": {
+	"type": "git",
+	"url": "git+ssh://git@github.com/fluque1995/maths_escape_room.git"
+    },
+    "author": "Francisco Luque Sánchez",
+    "license": "MIT",
+    "bugs": {
+	"url": "https://github.com/fluque1995/maths_escape_room/issues"
+    },
+    "homepage": "https://github.com/fluque1995/maths_escape_room#readme",
+    "dependencies": {
+	"@gathertown/gather-game-client": "37.0.0",
+	"dotenv": "^16.0.0",
+	"isomorphic-ws": "^4.0.1",
+	"ramda": "",
+	"ws": "^8.2.1"
+    },
+    "devDependencies": {
+	"@types/node": "^16.7.10",
+	"typescript": "^4.2.4"
+    }
+}

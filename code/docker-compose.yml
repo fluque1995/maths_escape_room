@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  # Listeners for object reactivity
+  gather-listeners-1:
+    build: .
+    entrypoint: npm run main
+    image: fluque1995/gather-escape-room:v1
+    volumes:
+    - ${PWD}/environments/.env-1:/app/.env
+
+  # Rooms objects setup
+  gather-setup-1:
+    build: .
+    entrypoint: npm run deploy
+    image: fluque1995/gather-escape-room:v1
+    volumes:
+    - ${PWD}/environments/.env-1:/app/.env
