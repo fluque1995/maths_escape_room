@@ -111,7 +111,7 @@ In this section, the structure of this repository is outlined. You can find more
 information about each subpart by visiting the file README.md inside each of the
 folders.
 
-- ![`room_scenarios_assets`](room_scenarios_assets): In this folder, the image
+- ![room_scenarios_assets](room_scenarios_assets): In this folder, the image
   files that define the different scenarios in the game are given. In the
   corresponding README, some indications about the files and the tools used to
   create them are given.
