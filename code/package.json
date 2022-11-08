@@ -5,7 +5,7 @@
     "main": "index.ts",
     "scripts": {
 	"main": "tsc -b && node dist/run_listeners.js",
-	"deploy": "tsc -b && node dist/setup_rooms.js",
+	"deploy": "tsc -b && node dist/setup_rooms.js"
     },
     "repository": {
 	"type": "git",
