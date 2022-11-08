@@ -107,7 +107,7 @@ wrong portal, it is possible to respawn to the explanation room using the
 
 ## Repository structure
 
-In this section, the structure of this repository is outlined. You can find more
+In this section, the structure of the repository is outlined. You can find more
 information about each subpart by visiting the file README.md inside each of the
 folders.
 
@@ -115,4 +115,7 @@ folders.
   files that define the different scenarios in the game are given. In the
   corresponding README, some indications about the files and the tools used to
   create them are given.
-- [`code`](code): In this folder, the image
+- [`code`](code): In this folder, the source code implemented to deploy the
+  objects in the space and provide them interactivity is stored. In the
+  corresponding README, and in-depth explanation of the code and how to run it
+  is given.
