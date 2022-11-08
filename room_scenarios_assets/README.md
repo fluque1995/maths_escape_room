@@ -7,10 +7,12 @@ while`_fg.png` files define the foreground. The basic difference between
 background and foreground is that background images are below the participants,
 while foreground images are over them. An in-depth explanation about background
 and foreground can be found in [Gather's Help Center - Background &
-Foreground](https://support.gather.town/help/background-foreground).
+Foreground](https://support.gather.town/help/background-foreground).  For the
+explanation room, only a background has been uploaded, since there are no
+objects in that room that can be passed below.
 
 All the maps presented here have been created using
 [Tiled](https://www.mapeditor.org/). Tiled is a general purpose tile map
 editor, recommended by Gather Town for maps creation. The assets employed to
 create the maps are given openly by Gather Town at
-https://github.com/gathertown/mapmaking
+https://github.com/gathertown/mapmaking.
