@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120.437mm"
+   height="99.657043mm"
+   viewBox="0 0 120.43699 99.657043"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (1:1.2.1+202207142221+cd75a1ee6d)"
+   sodipodi:docname="esquema_patio.svg"
+   inkscape:export-filename="esquema_patio.pdf"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2115266"
+     inkscape:cx="124.22344"
+     inkscape:cy="148.98558"
+     inkscape:window-width="1920"
+     inkscape:window-height="1059"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-107.76316,-69.89986)">
+    <path
+       style="fill:#daffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 123.05571,97.719119 99.96371,-0.07927 -12.55006,48.434131 z"
+       id="path2894" />
+    <path
+       id="rect398"
+       style="fill:#ff6600;fill-opacity:0.521435;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       inkscape:transform-center-x="-37.696694"
+       inkscape:transform-center-y="35.139449"
+       d="m 123.04304,72.726782 -12.09538,46.863298 -0.006,0.0103 87.50111,48.40996 12.10262,-21.87567 -87.49905,-48.407894 99.99648,-3e-6 V 72.726748 Z" />
+    <rect
+       style="fill:#280b0b;fill-opacity:0.521435;stroke-width:0;stop-color:#000000"
+       id="rect521"
+       width="49.999996"
+       height="0.24957415"
+       x="-88.830582"
+       y="240.3513"
+       transform="matrix(0.25154084,-0.96784669,0.96823758,0.25003197,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'FiraCode Nerd Font Mono';-inkscape-font-specification:'FiraCode Nerd Font Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="153.76308"
+       y="88.278336"
+       id="text4402"><tspan
+         sodipodi:role="line"
+         id="tspan4400"
+         style="stroke-width:0.264583"
+         x="153.76308"
+         y="88.278336">Edificio</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'FiraCode Nerd Font Mono';-inkscape-font-specification:'FiraCode Nerd Font Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="175.44342"
+       y="116.16989"
+       id="text4456"><tspan
+         sodipodi:role="line"
+         id="tspan4454"
+         style="stroke-width:0.264583"
+         x="175.44342"
+         y="116.16989">Patio</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'FiraCode Nerd Font Mono';-inkscape-font-specification:'FiraCode Nerd Font Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-86.478996"
+       y="244.11728"
+       id="text4565"
+       transform="rotate(-76.05033)"><tspan
+         sodipodi:role="line"
+         id="tspan4563"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="-86.478996"
+         y="244.11728">Valla exterior</tspan></text>
+  </g>
+</svg>
