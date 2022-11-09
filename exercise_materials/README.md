@@ -134,9 +134,9 @@ __Player 3__: The first paragraph and the second set of formulas.
 In this exercise, each student receives the previous document with some parts
 torn out, so only one design and part of the additional information is shown.
 You can check the examples of torn documents in spanish in files
-(documento_player1.pdf)[exercise_5/documento_player1.pdf],
-(documento_player2.pdf)[exercise_5/documento_player2.pdf] and
-(documento_player3.pdf)[exercise_5/documento_player3.pdf]
+[documento_player1.pdf](exercise_5/documento_player1.pdf),
+[documento_player2.pdf](exercise_5/documento_player2.pdf) and
+[documento_player3.pdf](exercise_5/documento_player3.pdf)
 
 __Player 1__: Only design A and additional information 3 and 4 are shown.
 
