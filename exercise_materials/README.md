@@ -114,3 +114,31 @@ calculate the maximum height reached.
 ![Possible formulas 1](exercise_4/formulas_1.svg)
 
 ![Possible formulas 2](exercise_4/formulas_2.svg)
+
+### Fragments given to the students
+
+__Player 1__: The first paragraph and the rocket trajectory.
+
+__Player 2__: The first paragraph and the first set of formulas.
+
+__Player 3__: The first paragraph and the second set of formulas.
+
+## Exercise 5: Probabilities ordering in polygons
+
+### Complete statement
+
+![Complete document](exercise_5/full_document.svg)
+
+### Fragments given to the students
+
+In this exercise, each student receives the previous document with some parts
+torn out, so only one design and part of the additional information is shown.
+You can check the examples of torn documents in spanish in files
+<exercise_5/documento_player1.pdf>, <exercise_5/documento_player2.pdf> and
+<exercise_5/documento_player3.pdf>
+
+__Player 1__: Only design A and additional information 3 and 4 are shown.
+
+__Player 2__: Only design B and additional information 2 are shown.
+
+__Player 3__: Only design C and additional information 1 are shown.
