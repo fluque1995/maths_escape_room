@@ -111,11 +111,15 @@ In this section, the structure of the repository is outlined. You can find more
 information about each subpart by visiting the file README.md inside each of the
 folders.
 
-- [`room_scenarios_assets`](room_scenarios_assets): In this folder, the image
-  files that define the different scenarios in the game are given. In the
-  corresponding README, some indications about the files and the tools used to
-  create them are given.
+- [`room_scenarios_assets`](room_scenarios_assets): In this folder, the image files that define the
+  different scenarios in the game are given. In the corresponding README, some
+  indications about the files and the tools used to create them are given.
 - [`code`](code): In this folder, the source code implemented to deploy the
   objects in the space and provide them interactivity is stored. In the
   corresponding README, and in-depth explanation of the code and how to run it
   is given.
+- `exercise_materials`: In this folder, the additional materials prepared for the
+  game are stored. In the README, an explanation on how to make that
+  information available to the players is given.
+
+## System deployment
