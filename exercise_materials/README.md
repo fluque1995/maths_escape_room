@@ -97,3 +97,20 @@ construction, and the following sentences from the spy's path:
 this building.
 - From the secret base, he traveled 2 km east to arrive to the spatial station.
 - At first, the spy left this building and traveled 2 km north, to the airport.
+
+## Exercise 4: Selection of a function for a trajectory and vertex calculation
+
+### Complete statement
+
+In this laboratory research is being carried out with state-of-the-art
+technological instruments. During the last few months, a vertical take-off
+rocket has been tested. In the last test, the rocket took off from the ground in
+time t=0, rose to a certain height (in m), and then returned to the ground. You
+must find out which function describes the trajectory of the rocket, and then
+calculate the maximum height reached.
+
+![Rocket trajectory](exercise_4/rocket_trajectory.svg)
+
+![Possible formulas 1](exercise_4/formulas_1.svg)
+
+![Possible formulas 2](exercise_4/formulas_2.svg)
