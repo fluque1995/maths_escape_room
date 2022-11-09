@@ -49,6 +49,8 @@ counting the repeated individuals twice.
 
 ![Population 3](exercise_2/population_3.svg)
 
+### Fragments given to the students
+
 __Player 1__: Finds the heading text and the first of the images.
 
 __Player 2__: Finds the heading text and the second of the images.
