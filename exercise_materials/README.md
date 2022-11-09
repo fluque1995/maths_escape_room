@@ -56,3 +56,44 @@ __Player 1__: Finds the heading text and the first of the images.
 __Player 2__: Finds the heading text and the second of the images.
 
 __Player 3__: Finds the heading text and the third of the images.
+
+## Exercise 3: Construction using GeoGebra
+
+### Complete statement
+
+One of the enemy's spies has been sent on a secret mission to visit some of the
+government buildings. To continue, you must trace the route followed by the spy
+from the instructions available. The spy left this building and returned to it
+after visiting all the other locations. The password that will allow you to open
+the door is the area of the figure that appear when you trace the spy's route
+through the various buildings. You can use the drawing system in the room to
+solve this problem.
+
+SPY'S PATH: At first, the spy left this building and traveled 2 km north, to the
+airport. From the airport, it moved 3 km east to get to the hospital. Next, from
+the hospital it went to a secret base, placed 4 km to the north. From the secret
+base, he traveled 2 km east to arrive to the spatial station. Then, he walked 6
+km south to get to the communications station from the spatial station. Finally,
+he covered 5 km west from the communications station to return to this building.
+
+### Fragments given to the students
+
+__Player 1__: The first common paragraph, a TV where he can follow the GeoGebra
+construction, and the following sentences from the spy's path:
+
+- Next, from the hospital it went to a secret base, placed 4 km to the north.
+- From the airport, it moved 3 km east to get to the hospital.
+- Then, he walked 6 km south to get to the communications station from the
+spatial station.
+
+__Player 2__: The first common paragraph and a poster where he can build the
+GeoGebra construction. No commands from the spy's path are given to this
+student.
+
+__Player 3__: The first common paragraph, a TV where he can follow the GeoGebra
+construction, and the following sentences from the spy's path:
+
+- Finally, he covered 5 km west from the communications station to return to
+this building.
+- From the secret base, he traveled 2 km east to arrive to the spatial station.
+- At first, the spy left this building and traveled 2 km north, to the airport.
