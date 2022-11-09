@@ -19,4 +19,4 @@ courtyard are the same length, the exterior fence is 5 m shorter thatn either of
 the two building walls, and that the perimeter of the courtyard is 25 m, how
 long is one building wall?
 
-![Diagram of the building and courtyard](exercise_1/esquema_patio.svg)
+![Diagram of the building and courtyard](exercise_1/fence_diagram.svg)
