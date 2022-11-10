@@ -143,3 +143,17 @@ __Player 1__: Only design A and additional information 3 and 4 are shown.
 __Player 2__: Only design B and additional information 2 are shown.
 
 __Player 3__: Only design C and additional information 1 are shown.
+
+# Serving this files into your game
+
+For the moment, this files are served using our personal servers, so we cannot
+guarantee that they will remain available the time you are accessing
+them. Moreover, we only serve the files in spanish, so you will have to serve it
+yourself if you plan to use the activity in other language.
+
+In the game, the files are served as external webpages that are loaded on
+interactive objects that display an IFrame. The URLs pointing to those resources
+are defined on file `code/assets_urls.ts`, under the object `externalUrls`. As you
+can check, those URLs now point to a NextCloud instance. You can use it whatever
+service you like to serve your files, as long as they allow iframe embedding in
+external sites.
