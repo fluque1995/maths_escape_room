@@ -118,7 +118,7 @@ folders.
   objects in the space and provide them interactivity is stored. In the
   corresponding README, and in-depth explanation of the code and how to run it
   is given.
-- `exercise_materials`: In this folder, the additional materials prepared for the
+- [`exercise_materials`](exercise_materials): In this folder, the additional materials prepared for the
   game are stored. In the README, an explanation on how to make that
   information available to the players is given.
 
