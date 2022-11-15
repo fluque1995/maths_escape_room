@@ -28,7 +28,7 @@ const setUpGame = () => {
 const game = setUpGame(); // magic. ignore
 
 var i = 3;
-var step = 3;
+var step = 4;
 
 setTimeout(() => {
     console.log("Setting up portals...");
