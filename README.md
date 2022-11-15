@@ -45,10 +45,11 @@ provided solution is correct, the doors of the three participants will unlock
 and they will be able to go on to the next assignment. Their objective is to
 escape from the building, whose exit is placed after the fifth task.
 
- An example of the escape room can be found ![here](https://gather.town). Feel
- free to roam around the game and interact with the objects to grasp the
- intention of the activity. When you are finished, go to the master controls
- section to reset the room for the next visitor.
+An example of the escape room can be found
+![here](https://app.gather.town/app/iC2DLiAyR23qxOlS/paper_gather_town). Feel
+free to roam around the game and interact with the objects to grasp the
+intention of the activity. When you are finished, go to the master controls
+section to reset the room for the next visitor.
 
 <!-- TODO: Add a proper link to the functioning room -->
 <!-- TODO: Add a proper link to the master section -->
@@ -168,3 +169,59 @@ you find any problem, and I will try to answer as soon as possible.
   ![Copy room IDs](docs/9_copy_room_id.png)
 - Use the script `setup_rooms.ts` in folder `code` to place the objects in the
   rooms. Details about how to run the script in the following section.
+
+### Objects deployment and listeners
+
+In order to finish the game setup, you will have to perform two additional
+operations to place the interactive objects and run the listeners for them. This
+is done using a TypeScript library provided by the Gather Town developers. You
+can check the docs
+[here](http://gather-game-client-docs.s3-website-us-west-2.amazonaws.com/modules.html). There are two ways to perform this deployment:
+
+__Using docker and docker-compose__
+
+If you are familiar with `docker` and `docker-compose`, it is probably the
+easiest way to perform this two steps. In order to setup the game, this steps
+have to be followed:
+
+- Make sure that configuration files are setup properly. You have to configure
+  file `code/.env` with information about your Gather account and space you
+  want to modify. More information about this process in the `code` folder. Also,
+  make sure that `code/config.ts` has the proper room IDs for your space.
+- Execute the following commands in a terminal, starting in the root of this
+  repository:
+  ```
+  cd code
+  docker-compose build
+  docker-compose up gather-setup-1
+  ```
+  This commands will run a Docker container that places all the objects in their
+  correct place, and prepares the teleports between rooms so the students can move
+  in through the game rooms.
+- After that command is finished, use `docker-compose up -d gather-listeners-1`
+  to run the listeners for the game. You need to keep that container running to
+  interact with the objects. If the container is not running, computers that
+  allow the students to open the door will be unresponsive.
+
+## Game master controls
+
+In order to control the room within the game, two objects have been included
+into the explanation room: a computer to control the blocked doors and a door
+blocking the access to that computer.
+
+![Master computer and blocking door](docs/master_controls.png)
+
+The computer allows the game master to open or close all the doors in the
+game. Interacting with it, you can specify commands `open` and `close` to open
+or close all the doors in the game. Additionally, you can specify a problem in
+the second box (using `problem-X` to act over the problem number X) to act only
+with the doors related to that problem.
+
+The blocking door prevents the rest of the players to access to the computer
+without permission. Interacting with it, you will be prompted to give a password
+to open it. That password is `YouShallNotPass`
+
+> If you interact with the game in
+> https://app.gather.town/app/iC2DLiAyR23qxOlS/paper_gather_town, please close
+> all the doors in the end, so a new visitor can enjoy the game from the
+> beginning.
