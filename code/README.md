@@ -80,12 +80,14 @@ usage and the underlying technology.
     - `GEOGEBRA_RESTRICTED_SERVER` and `GEOGEBRA_RESTRICTED_CLIENT`: Pair of
 	  URLs pointing to a GeoGebra client-server setup. You can find a basic
 	  implementation of this system in
-	  https://fluque1995/geogebra_client_server, together with a brief
-	  explanation of it. If you are lucky enough, I will still be serving my own
-	  setup of this system in my own server, you can use it as you like, but I
-	  do not guarantee any kind of availability or maintenance. Different
-	  numbers at the end of the URL will mean different server-clients pairs, so
-	  use a random big number to avoid collisions with other potential users.
+	  https://github.com/fluque1995/geogebra_client_server, together with a
+	  brief explanation of it. If you are lucky enough, I will still be serving
+	  my own setup of this system in my own server, you can use it as you like,
+	  but I do not guarantee any kind of availability or maintenance. You can
+	  try the system in https://geogebra.fluque.es/server/1 and
+	  https://geogebra.fluque.es/client/1. Different numbers at the end of the
+	  URL will mean different server-clients pairs, so use a random big number
+	  to avoid collisions with other potential users.
 - Docker containerization and deployment: The system is intended to be deployed
   using docker, since it is a simple way to run applications under the same
   conditions in different machines, and keep applications running during long
