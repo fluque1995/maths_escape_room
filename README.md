@@ -50,8 +50,8 @@ escape from the building, whose exit is placed after the fifth task.
  intention of the activity. When you are finished, go to the master controls
  section to reset the room for the next visitor.
 
-<!-- TODO: Add a proper link to the functioning room --> <!-- TODO: Add a proper
-link to the master section -->
+<!-- TODO: Add a proper link to the functioning room -->
+<!-- TODO: Add a proper link to the master section -->
 
 > DISCLAIMER: Problem statements are written in spanish (our mother
 > tongue). However, it should not be difficult to modify the code to translate
