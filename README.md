@@ -5,13 +5,14 @@ project about mathematical communication. In it, we propose an activity based on
 a Escape Room whose aim is to improve the mathematical communication among our
 students.
 
-The game is developed using the platform ![Gather Town](https://gather.town). This platform aims to
-convert virtual interactions into a more human experience. To that purpose, they
-offer a website with capability to create virtual spaces where attendants can
-interact with each other and the surroundings. Moreover, they provide an (still
-experimental) API ![(docs)](http://gather-game-client-docs.s3-website-us-west-2.amazonaws.com/modules.html) to interact with the spaces programmatically. Using
-this API, objects can be placed in the environment, and they can be provided
-with interactivity.
+The game is developed using the platform ![Gather
+Town](https://gather.town). This platform aims to convert virtual interactions
+into a more human experience. To that purpose, they offer a website with
+capability to create virtual spaces where attendants can interact with each
+other and the surroundings. Moreover, they provide an (still experimental) API
+![(docs)](http://gather-game-client-docs.s3-website-us-west-2.amazonaws.com/modules.html)
+to interact with the spaces programmatically. Using this API, objects can be
+placed in the environment, and they can be provided with interactivity.
 
 We leverage the flexibility of the platform and the API they provide to build an
 interactive activity for our students. The activity is prepared to be played by
@@ -49,8 +50,8 @@ escape from the building, whose exit is placed after the fifth task.
  intention of the activity. When you are finished, go to the master controls
  section to reset the room for the next visitor.
 
-<!-- TODO: Add a proper link to the functioning room -->
-<!-- TODO: Add a proper link to the master section -->
+<!-- TODO: Add a proper link to the functioning room --> <!-- TODO: Add a proper
+link to the master section -->
 
 > DISCLAIMER: Problem statements are written in spanish (our mother
 > tongue). However, it should not be difficult to modify the code to translate
@@ -111,15 +112,59 @@ In this section, the structure of the repository is outlined. You can find more
 information about each subpart by visiting the file README.md inside each of the
 folders.
 
-- [`room_scenarios_assets`](room_scenarios_assets): In this folder, the image files that define the
-  different scenarios in the game are given. In the corresponding README, some
-  indications about the files and the tools used to create them are given.
+- [`room_scenarios_assets`](room_scenarios_assets): In this folder, the image
+  files that define the different scenarios in the game are given. In the
+  corresponding README, some indications about the files and the tools used to
+  create them are given.
 - [`code`](code): In this folder, the source code implemented to deploy the
   objects in the space and provide them interactivity is stored. In the
   corresponding README, and in-depth explanation of the code and how to run it
   is given.
-- [`exercise_materials`](exercise_materials): In this folder, the additional materials prepared for the
-  game are stored. In the README, an explanation on how to make that
-  information available to the players is given.
+- [`exercise_materials`](exercise_materials): In this folder, the additional
+  materials prepared for the game are stored. In the README, an explanation on
+  how to make that information available to the players is given.
 
-## System deployment
+## System setup
+
+In order to use this activity with your students, you will have to follow a
+series of steps to have your own instance of the game running. This steps have
+been tested on a Linux machine (specifically, using Ubuntu 20), but most of them
+should be equivalent in other operative systems. Feel free to open an issue if
+you find any problem, and I will try to answer as soon as possible.
+
+- Create an account in [Gather Town](https://gather.town).
+- Create a blank space, choose a name and a purpose and press "Create Space"
+  ![Create space](docs/1_create_space.png)
+  ![Advanced settings](docs/2_advanced_settings.png)
+  ![Start blank space](docs/3_start_blank.png)
+- Enter into MapMaker tool by selecting the editing tool and choosing "Edit
+  in MapMaker"
+  ![Start blank space](docs/4_enter_mapmaker.png)
+- Create the rooms for the space. You will need the following rooms:
+  - `explanation_room`: The room where the game will start. It is the place where
+    the players will begin when entering the space for the first time. You can
+    modify the name of the default room, changing it from `blank` to `explanation_room`
+  - `first_room_1`, `first_room_2` and `first_room_3`: The rooms where the players
+    will be teleported after the initial explanation (one for each player).
+  - `problems_1_2`: Room where the players will face the first two problems in
+    the game.
+  - `problems_3_4`: Room where the players will face the problems 3 and 4 of the
+    game.
+  - `problem_5`: Room for the last problem.
+  - `outside`: Room accessed at the end of the game.
+  ![Create room](docs/5_create_room.png)
+  ![Create room blank](docs/6_create_room_blank.png)
+- Upload the background and foreground for each room using MapMaker.
+  ![Upload foreground and background](docs/7_upload_bg_fg.png)
+- Set the walls as impassable tiles, and add at least one spawn tile for each
+  room. Only the spawn tiles in the explanation room will be used, and they have
+  to be placed in the left part of the room. The spawn tiles in the other maps
+  will not be used, but Gather Town enforces to add at least one spawn tile in
+  each room.
+  ![Add tile effects](docs/8_tile_effects.png)
+- Copy the room IDs for each room into the file `config.ts` inside the folder
+  `code`. You can copy the room ID using the three dots in the right of the room
+  name and choosing "Copy room ID".
+  ![Copy room IDs](docs/9_copy_room_id.png)
+- Use the script `setup_rooms.ts` in folder `code` to place the objects in the
+  rooms. Details about how to run the script in the following section.
