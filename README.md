@@ -1,4 +1,4 @@
-# Maths Escape Room
+# Mathematical Virtual Escape Room Based on Gather Town
 
 This repository contains the source code and assets developed for our research
 project about mathematical communication. In it, we propose an activity based on
